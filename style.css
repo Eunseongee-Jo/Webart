@@ -1,0 +1,139 @@
+/* 기본 설정 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee; /* 배경 */
+    color: #333;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+/* 헤더 스타일 */
+.main-header {
+    background-color: #3f51b5; /* 웹의 상징적인 파란색 계열 */
+    color: white;
+    padding: 100px 5%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-header h1 {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 30px auto;
+    font-size: 1.1em;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #ff9800; /* 강조색 (주황) */
+    color: white;
+    padding: 12px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #e68900;
+}
+
+/* 시대별 섹션 공통 스타일 */
+.era-section {
+    padding: 80px 5%;
+    max-width: 1000px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.era-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.content-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.content-box h3 {
+    color: #3f51b5; /* 파란색 */
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.image-placeholder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* 섹션별 배경 색상 (시각적 구분) */
+.era-vintage { background-color: #f7f7f7; }
+.era-flash { background-color: #fffde7; } /* 플래시 시대의 노란색 느낌 */
+.era-modern { background-color: #e1f5fe; } /* 현대적인 푸른 느낌 */
+
+/* 맨 위로 버튼 */
+.back-to-top {
+    display: block;
+    width: 150px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #303f9f;
+}
+
+/* 푸터 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
